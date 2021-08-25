@@ -1,11 +1,11 @@
 {
-  "name": "@jonwa/package-b",
+  "name": "@betterpt/package-b",
   "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jonwa/lerna-release-workflow.git",
+    "url": "git@github.com:damianesteban/monorepo-semantic.git",
     "directory": "packages/package-b"
   },
   "scripts": {
@@ -14,6 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@jonwa/package-a": "^0.1.0"
+    "@betterpt/package-a": "^0.1.0"
   }
 }
